@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = ArToolkit::VERSION
   s.authors     = ["Haziman Hashim"]
   s.email       = ["haziman@abh.my"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ArToolkit."
-  s.description = "TODO: Description of ArToolkit."
+  s.homepage    = "ww.abh.my"
+  s.summary     = "AR Toolkit"
+  s.description = "Rails ActiveRecord Toolkit."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
