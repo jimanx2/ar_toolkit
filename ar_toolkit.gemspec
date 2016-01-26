@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = ArToolkit::VERSION
   s.authors     = ["Haziman Hashim"]
   s.email       = ["haziman@abh.my"]
-  s.homepage    = "ww.abh.my"
+  s.homepage    = "http://www.abh.my"
   s.summary     = "AR Toolkit"
   s.description = "Rails ActiveRecord Toolkit."
   s.license     = "MIT"
