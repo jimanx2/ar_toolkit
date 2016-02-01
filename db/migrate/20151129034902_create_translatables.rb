@@ -1,7 +1,7 @@
 class CreateTranslatables < ActiveRecord::Migration
   def change
     create_table :translatables do |t|
-      t.integer :model_id
+      t.string :model_id
       t.string :locale
       t.string :field
       t.string :value

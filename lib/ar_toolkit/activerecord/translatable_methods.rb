@@ -54,8 +54,7 @@ module ArToolkit
       
       private
       def __model_id
-        model_id = "#{self.class.name}#{self.id}"
-          .each_byte.map{|b| b }.inject{|sum,x| sum + x }
+        model_id = Digest::MD5.hexdigest("#{self.class.name}#{self.id}")
       end
 
       private
